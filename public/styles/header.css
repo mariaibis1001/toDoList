@@ -1,0 +1,18 @@
+*{
+    padding: 0.2rem;
+}
+.nav-underline .nav-link.active {
+    
+    --bs-nav-underline-link-active-color:rgb(231, 21, 147);
+    --bs-nav-underline-border-width: 0;
+}
+
+.nav-link {
+    --bs-nav-link-color: rgb(100, 95, 89);
+    --bs-nav-link-hover-color: rgb(146, 129, 139);
+    border-bottom: 0;
+}
+
+.nav-underline .nav-link {
+    border-bottom:0 !important;
+}

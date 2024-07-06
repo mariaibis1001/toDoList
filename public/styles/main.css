@@ -1,0 +1,53 @@
+
+* {
+    background-color: white;
+    color:rgb(100, 95, 89);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.start {
+    font-weight: bold;
+}
+
+.addTaskButton {
+    border:none;
+    font-size: 50px;
+    font-weight: lighter;
+}
+.addTaskButton:hover , .enterTaskSecButton:hover {
+    color: rgb(143, 138, 138);
+}
+
+.textBox {
+    width: 100%;
+    height: 119px;
+   /* border: 0.5px solid grey; */
+   border: none;
+}
+
+.enterTaskSec {
+    border: 0.5px solid grey;
+}
+
+.enterTaskSecButton {
+    border: 0.5px solid grey;
+    font-size: 25px;
+    color: rgb(100, 95, 89);
+    padding: 5px;
+}
+
+.bgColor {
+    background-color:	#7afcff;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Done</title>
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+    <%- include("partials/header.ejs") %>
+    <div class="d-flex flex-column justify-content-center">
+        <h1 class="text-center mb-5 fw-light">Well done! Look at all those completed tasks! 🎈</h1>
+
+        <% if (locals.done) { %>
+            <% for (let i = 0; i < done.length; i++) { %>
+             <form class="d-flex flex-column justify-content-center mx-5">
+                 <textarea readonly class="text-center"><%= done[i] %></textarea>
+             </form>
+             <% } %>
+         <% } %>
+    </div>
+
+    <%- include("partials/footer.ejs") %>
+</body>
+</html>
